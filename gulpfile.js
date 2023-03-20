@@ -38,7 +38,7 @@ const gulp                      = require('gulp'),
 
       src_folder                = './src/',
       src_assets_folder         = src_folder + 'assets/',
-      dist_folder               = './public/',
+      dist_folder               = './dist/',
       dist_assets_folder        = dist_folder + 'assets/';
 
 gulp.task('clear', () => del([ dist_folder ]));
